@@ -8,7 +8,8 @@ def get_length(dna):
     >>> get_length('ATCG')
     4
     """
-
+    return len(dna)
+    
 
 def is_longer(dna1, dna2):
     """ (str, str) -> bool
